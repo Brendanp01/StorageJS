@@ -6,7 +6,7 @@ StorageJS is a simple TypeScript/JavaScript library for managing LocalStorage an
 ## Using it in a project
 There are two ways to use it:
 #### jsDelivr
-`<script src="https://cdn.jsdelivr.net/gh/brendanp01/StorageJS@1.0/StorageLib.min.js">`
+`<script src="https://cdn.jsdelivr.net/gh/brendanp01/StorageJS@1.0/StorageLib.js">`
 
 #### Download the ZIP Archive from GitHub and extract it into your project
 Well, that's pretty self explanatory.
