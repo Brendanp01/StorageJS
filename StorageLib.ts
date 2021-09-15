@@ -5,8 +5,8 @@ Full license available at https://github.com/brendanp01/StorageJS/LICENSE
 
 
 interface Data {
-  key: string
-  value: string
+  key: any
+  value: any
 }
 function save(permanant: Boolean, data: Data): Boolean {
   if (permanant) {
@@ -17,7 +17,7 @@ function save(permanant: Boolean, data: Data): Boolean {
     return(true);
   }
 }
-function load(permanant: Boolean, key: string): any {
+function load(permanant: Boolean, key: any): any {
   if (permanant) {
     return(localStorage.getItem(key));
   } else {
